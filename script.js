@@ -46,13 +46,7 @@ const display = (task) => {
   // Inserting taskBody inside taskContainer
   taskCont.appendChild(taskBody);
 
-  // Just for Reference
-  // taskCont.innerHTML += `
-  //   <div id="task${counter}" class="w-full h-14 bg-gray-100 flex items-center justify-between px-4 py-7 gap-2">
-  //     <p onclick="taskDone('task${counter}')" class="font-semibold text-gray-700 cursor-pointer">${task}</p>
-  //     <i onclick="deleteTask('task${counter}')" class="ri-delete-bin-line text-white bg-red-500 px-2 py-1 rounded-lg text-xl cursor-pointer"></i>
-  //   </div>
-  // `;
+  
 
   counter++;
 }
